@@ -14,8 +14,8 @@ class Room {
 		int getID();
 		map <int, char*>* getExits();
 
-		void setTrait(char*);
-		void setExits(map<int, char*>);
+		void setTrait(char*); //the words part or a description
+		void setExits(map<int, char*>); 
 		void setID(int);
 	private:
 		char* trait;
