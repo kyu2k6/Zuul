@@ -21,6 +21,10 @@ int Room::getID() {
 	return ID;
 }
 
+int Room::getItem() {
+	return item;
+}
+
 void Room::setTrait(char* newTrait) {
 	trait = newTrait;
 }
@@ -32,4 +36,9 @@ void Room::setExits(map<int, char*> newExits) {
 void Room::setID(int newID) {
 	ID = newID;
 }
+
+void Room::setItem(int newItem) {
+	item = newItem;
+}
+
 
